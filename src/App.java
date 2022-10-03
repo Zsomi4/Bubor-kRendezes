@@ -11,6 +11,12 @@ public class App {
         }
         
     }
+    public static void kiirTomb(int[] tomb) {
+        for (int i : tomb) {
+            System.out.println(i + " ");
+        }
+        System.out.println();
+    }
     public static void main(String[] args) throws Exception {
         int[] tomb = {30, 25, 12, 40, 27, 38};
         bubiRendez(tomb);
